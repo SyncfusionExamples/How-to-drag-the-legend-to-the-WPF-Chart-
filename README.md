@@ -2,9 +2,11 @@
 
 This example demonstrates how to achieve the draggable chart legend in WPF. Please refer KB links for more details,
 
+[How to drag the legend to the WPF Chart (SfChart)](https://www.syncfusion.com/kb/11484/?utm_medium=listing&utm_source=github-examples)
 
-To change the position of legend at any arbitrary location inside chart area, set DockPosition as Floating with subscribing the necessary mouse events to change its X and Y legend offset as per in below,
+To change the position of legend at any arbitrary location inside the chart area, set the DockPosition as Floating with subscribing the necessary mouse events to change their X and Y legend offset as per follows.
 
+ 
 **[XAML]**
 ```
 <chart:SfChart x:Name="sfChart" MouseMove="SfChart_MouseMove" 

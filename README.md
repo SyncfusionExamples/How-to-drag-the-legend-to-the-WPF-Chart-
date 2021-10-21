@@ -53,6 +53,6 @@ private void Legend_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
 }
 ``
 
-
+KB article - [How-to-drag-the-legend-to-the-WPF-Chart](https://www.syncfusion.com/kb/11484/how-to-achieve-the-draggable-legend-in-wpf-chart-sfchart)
 
 

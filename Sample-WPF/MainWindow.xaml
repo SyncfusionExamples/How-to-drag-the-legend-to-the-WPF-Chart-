@@ -3,10 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Sample_WPF"
         xmlns:chart="clr-namespace:Syncfusion.UI.Xaml.Charts;assembly=Syncfusion.SfChart.WPF"
+        xmlns:local="clr-namespace:Sample_WPF"
         mc:Ignorable="d"
-        Title="MainWindow">
+        Title="MainWindow" Height="450" Width="800">
 
     <Window.DataContext>
         <local:ViewModel x:Name="viewModel"/>
@@ -30,6 +30,7 @@
                                         XBindingPath="XValue"
                                         YBindingPath="YValue1"
                                         Label="Series" Palette="Custom">
+                    
                     <chart:SplineAreaSeries.ColorModel>
                         <chart:ChartColorModel>
                             <chart:ChartColorModel.CustomBrushes>
@@ -39,14 +40,13 @@
                     </chart:SplineAreaSeries.ColorModel>
                 </chart:SplineAreaSeries>
             </chart:SfChart.Series>
-            
+
             <chart:SfChart.Legend>
                 <chart:ChartLegend  x:Name="legend" DockPosition="Floating"
                                    MouseLeftButtonDown="Legend_MouseLeftButtonDown"
                                    OffsetX="200"/>
             </chart:SfChart.Legend>
-            
+
         </chart:SfChart>
     </Grid>
-
 </Window>

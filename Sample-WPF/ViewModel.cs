@@ -1,13 +1,7 @@
-﻿using Syncfusion.UI.Xaml.Charts;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sample_WPF
+﻿namespace Sample_WPF
 {
+    using System.Collections.ObjectModel;
+
     public class ViewModel
     {
         public ObservableCollection<Model> Data { get; set; }

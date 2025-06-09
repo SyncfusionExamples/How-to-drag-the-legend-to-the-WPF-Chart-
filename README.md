@@ -59,7 +59,7 @@ private void Legend_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For more details, refer to the KB on [How to achieve the draggable legend in WPF Chart (SfChart)?](https://www.syncfusion.com/kb/11484/how-to-achieve-the-draggable-legend-in-wpf-chart-sfchart)
+For more details, refer to the KB on [How to achieve the draggable legend in WPF Chart (SfChart)](https://www.syncfusion.com/kb/11484/how-to-achieve-the-draggable-legend-in-wpf-chart-sfchart)
 
 ## See also
 
